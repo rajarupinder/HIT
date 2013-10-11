@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserMasterPage.master.cs" Inherits="HopeInTomorrow_UserMasterPage" %>
+
+<!DOCTYPE html>
+
+<Html>
+<head id="Head1" runat="server">
+   <title>Hope In Tomorrow</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>    
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/slider_script.js"></script>
+
+</head>
+
+<body>
+      <form id="form1" runat="server">
+<div id="main">
+
+	<div id="header_main">
+    	<div id="header_cont">
+        	<div id="header">
+           
+            	<div class="logo">
+                	<a href="Default.aspx">
+                    	<img src="img/final_logo.png" />
+                    </a>
+                </div>
+                 <div class="menu_cont">
+                <div class="div_sub_menu">
+                    <div id="sub_menu" >
+                	    <ul>
+                    	    <li><a id="a_signin" href="sign_in.aspx" runat="server" >Sign In</a></li>
+                            <li><a id="a_joinus" href="join_us.aspx" runat="server" >Join us</a></li>
+					    </ul>
+                    </div>
+                     
+                </div>
+                
+               <div class="div_log_user"></div>
+                   
+                
+                <div class="menu">
+                	
+                	<ul>
+                    	<li><a href="Default.aspx">Home</a></li>
+                        <li><a href="Blog.aspx">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="donate.aspx">Donate</a></li>
+                        <li><a href="about_us.aspx">About Us</a></li>
+                        <li><a href="contactUs.aspx">Contact Us</a></li>
+                        <li><a href="chop.aspx">CHOP</a></li>
+
+                       
+                    </ul>
+                </div>
+                </div>
+               
+            	
+            </div>
+        </div>
+    </div>
+  
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <!-- <div id="footer_caller"> </div>   -->
+     <div id="footer_main">     <!-- to be added for this tag style="position:fixed ;bottom:0px; display:none; -->
+    	<div id="footer_cont">
+        	<div  id="footer">
+            	<div class="social_media">
+                	<div class="social_icon_style">
+                    	<div id="facebook_icon">
+                            <a href="#" 
+
+  
+                                 onclick="
+                                    var x = window.open(
+                                      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+                                      'facebook-share-dialog', 
+                                      'width=626,height=436,toolbar=no');
+                                      x.document.title='Hope In Tomorrow';                          
+                                    return false;">
+
+                   	 		<img  src="img/facebook-icon-214x214.png" />
+                            </a>
+                        </div>
+                    </div>
+                  	<div class="social_icon_style">
+                    <a href="#" onclick="var x = window.open(
+                                            'https://plus.google.com/share?url='+encodeURIComponent(location.href), 
+                        
+                                            'Hope In Tomorrow Google Share', 
+                                            'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+                                             x.document.title='Hope In Tomorrow'; 
+                                            return false;">
+
+                                  	<img  src="img/google-plus-icon-214x214.png" />
+
+                    </a>
+                    </div>
+                    <div class="social_icon_style">
+                    	<div id="twiter_icon">
+                        <a href="#" 
+                                      onclick="
+                                       var x= window.open( 'https://twitter.com/share?url='+encodeURIComponent(location.href),
+      
+                                          'twitter-share-dialog', 
+                                          'width=626,height=436,toolbar=no'); 
+                                          x.document.title='Hope In Tomorrow'; 
+                                        return false;">
+                    		    <img  src="img/twitter-icon-214x214.png"/>
+                           </a>
+                         </div>                    	
+                    </div>               
+                    
+                </div>
+           		
+            	
+            </div>
+    	
+    	</div>
+    	
+    </div>
+    </div>
+    </form>
+
+</body>
+</Html>
+

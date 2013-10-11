@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Admin_AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/MasterPageStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+          <div id="div_head" >                 <!-- The Head --> 
+                
+                
+                <div id="div_spacer1">             <!-- And empty div for space --> 
+                </div> 
+                
+              
+                    <div id="div_logo">
+
+                        <img id="img_logo" src="Resources/Images/webpage_images/final_logo.png" />
+
+                    </div>
+
+              <div id="div_menu_message_bar"> 
+                  
+                        <div id="div_admin_message">
+                            <div id="div_welcome_Admin">
+                                    <asp:Label runat="server" ID="lblHelloAdmin"> Welcome Admin </asp:Label>
+                                   
+                                   
+                                </div> 
+                            </div>
+
+                          <div id="div_vertical_main_menu">
+                                <ul>
+                                    <li id="li_vertical_1"> <a href="AdminHome.aspx" id="a_vertical_menu1" class="a_vertical_menu"> Home </a> </li> 
+                                    <li id="li_vertical_2"> <a href="ViewAllUsers.aspx" id="a_vertical_menu2" class="a_vertical_menu"> User Management </a> </li>  
+                                    <li id="li_vertical_3"> <a href="AdminBlog.aspx" id="a_vertical_menu3" class="a_vertical_menu"> Blog Management </a> </li>  
+                                    <li id="li_vertical_4"> <a href="ViewAllEvents.aspx" id="a_vertical_menu4" class="a_vertical_menu"> Events </a> </li>  
+                                    <li id="li_vertical_5"> <a href="AdminHome.aspx" id="a_vertical_menu5" class="a_vertical_menu"> News </a> </li> 
+                                    <li id="li_vertical_6"> <a href="AdminHome.aspx" id="a_vertical_menu6" class="a_vertical_menu"> Image Slider </a> </li> 
+                                    <li id="li_vertical_7"> <a href="AdminHome.aspx" id="a_vertical_menu7" class="a_vertical_menu">Contacts </a> </li>
+                                </ul>
+                          </div> 
+
+              </div>
+                   
+                
+            </div>                              <!-- End Of The Head --> 
+
+        <asp:ContentPlaceHolder ID="content_body" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

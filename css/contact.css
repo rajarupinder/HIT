@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin: 0 auto;
+	border-top:3px solid #009999; font-family:Arial, Helvetica, sans-serif;
+	}
+#container
+{
+	width:1365px;
+	background:#FFFFFF;
+	
+	margin: 0 auto;
+	
+}
+/*upper */
+
+#upper
+{
+margin: 0 auto; 
+ height:100px;
+ border-bottom:3px solid #009999;
+    
+}
+#title
+{
+height:90px;
+width:198px;
+	float:left;
+	margin-top:10px;
+	margin-left:150px;
+}
+#menu
+{
+	float:left;
+	width:500px;	
+	height:50px;
+	margin-left:400px;
+	margin-top:35px;
+        
+	
+	
+}
+#menutable{
+width:500px;
+height:15px;
+
+}
+
+
+td{
+
+text-align:center;
+font-family:  Arial, Gadget, sans-serif;
+
+}
+
+
+
+
+.tdmenu:hover
+{
+    color:#FFFFFF;
+	background:#009999;  cursor : pointer;
+}
+
+
+.tdmenu
+{
+    padding : 5px;
+	color:#333333;
+}
+#Email_Notifier_Button
+{
+	float:right;
+	height:100px;
+	width:80px;
+	margin-top:0px;
+	background:#009999;
+	margin-right:30px;
+	text-align:center;
+	font-size:12px;
+	
+}
+#notifier_box
+{
+
+	float:right;
+	height: 50px;
+	width: 422px;
+	margin-top:0px;
+	background: #009999;
+	margin-right:30px;
+	opacity:0.6;
+	display:none;
+	 border-radius : 2px;
+	
+}
+
+
+#input_contaner
+{
+	margin-top:7px;
+	margin-left:7px;
+	
+}
+
+.input_box
+{
+	height:20px;
+	padding:5px;
+	 border-radius : 2px;
+	
+
+}
+.Email_btn
+{
+	height:30px;
+	width:65px;
+	background-color:#009999;
+	color:#FFFFFF;
+	border:3px solid ;
+	
+	
+}
+
+#div_wrapper
+{
+	width:980px;
+	margin:auto;
+	margin-top:20px;
+}
+#div_wrapper_inner
+{
+	margin:auto;
+	width:960px;
+	margin-top:10px;
+}
+#div_form
+{
+	width:600px;
+	float:left;
+	
+}
+#div_header
+{
+	width:90%;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:auto;
+	line-height:15px;
+}
+#div_regular_content
+{
+	width:90%;
+	margin:auto;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+#div_info_conatiner
+{
+	width:90%;
+	margin:auto;
+}
+#div_content_left
+{
+	width:55%;
+	float:left;
+	font-size:14px;
+	line-height:15px;
+	margin-top:20px;
+}
+#div_content_right
+{
+	width:45%;
+	float:left;
+	font-size:14px;
+	line-height:15px;
+	margin-top:20px;
+	
+}
+.text
+{
+	width:233px;
+}
+#div_container
+{
+	
+	width:90%;
+	margin:auto;
+	font-size:14px;
+	line-height:15px;
+	margin-top:30px;
+}
+#div_button
+{
+	width:90%;
+	margin:auto;
+	margin-top:10px;
+}
+.btn
+{
+	float:right;
+	padding:7px;
+	padding-left:15px;
+	padding-right:15px;
+	background:#7DB4B5;
+	color:#FFF;
+}
+	
+#div_info
+{
+	width:350px;
+	float:left;
+	
+}
+#div_1
+{
+	float:left;
+	margin-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin-top:15px;
+	width:90%;
+}
+#div_2
+{
+	float:left;
+	margin-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin-top:15px;
+	width:90%;
+}
+#div_3
+{
+	float:left;
+	margin-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin-top:15px;
+	width:90%;
+}
+#div_4
+{
+	float:left;
+	margin-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin-top:15px;
+	width:90%;
+}
+h4
+{color:#900;
+}

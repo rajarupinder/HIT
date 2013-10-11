@@ -1,0 +1,75 @@
+﻿body {
+}
+.userInfo {
+margin-left:auto; margin-right: auto;
+color:white;
+}
+  /*news panle left side*/
+
+#news {
+overflow:auto;
+text-overflow:ellipsis;
+}
+
+.Usr_details {
+width:980px;
+height:500px;
+}
+.user_name {
+    text-indent:10px;
+width:880px;
+height:100px;
+background-color:#244B73;
+color:white;
+}
+.user_pic {
+float:right;
+height:100px;
+width:100px;
+background-color:transparent;
+margin-top:-102px;
+border:medium;
+}
+hr {
+width:690px;
+}
+.Latest_news_Events {
+width:688px;
+height:192px;
+border:solid;
+overflow:auto;
+border-radius:3px;
+}
+.msgFromAdmin {
+width:260px;
+height:80px;
+border:solid;
+float:right;
+margin-top:-399px;
+border-radius:3px;
+}
+.write_blog{
+width:260px;
+height:80px;
+border:solid;
+float:right;
+margin-top:-299px;
+border-radius:3px;
+}
+.Events{
+width:260px;
+height:80px;
+border:solid;
+float:right;
+margin-top:-199px;
+border-radius:3px;
+overflow:auto;
+}
+.Email_entry {
+width:260px;
+height:80px;
+border:solid;
+float:right;
+margin-top:-99px;
+border-radius:3px;
+}
