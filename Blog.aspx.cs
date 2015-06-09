@@ -15,16 +15,13 @@ public partial class HopeInTomorrow_Blog : System.Web.UI.Page
         {
             try
             {
-
                 dlBlog.DataSource = blog.ListBlog();
                 dlBlog.DataBind();
-
             }
             catch (Exception ex)
             {
-                Response.Write("Error Ocured : " + ex.ToString());
+                Response.Write("Error Occurred: " + ex.ToString());
             }
-
         }
     }
 
